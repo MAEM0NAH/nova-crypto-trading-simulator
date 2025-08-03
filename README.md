@@ -23,3 +23,8 @@ The application is designed for educational purposes to help users understand tr
 
 ## 🏗️ Project Structure
 
+├── Broker.java             # Handles the execution of buy and sell operations between the user and cryptocurrencies
+├── Wallet.java             # Manages the user's crypto balances (deposit, withdraw, check balance)
+├── CreptoCurrency.java     # Represents cryptocurrency objects (e.g., Bitcoin, Ethereum)
+├── PlatFormNova.java       # Coordinates operations between the wallet, broker, and crypto assets
+└── Nova.java               # Entry point of the program (contains the main method)
